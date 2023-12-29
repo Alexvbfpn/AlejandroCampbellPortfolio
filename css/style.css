@@ -6005,7 +6005,7 @@ h6 {
 
 /* line 1017, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_blog.scss */
 .blog-pagination .page-item.active .page-link {
-  background-color: #fbf9ff;
+  background-color: #FBFFF1;
   border-color: #f0e9ff;
   color: #888888;
 }
@@ -6610,7 +6610,9 @@ h6 {
     bottom: -140px;
   }
 }
-
+.filter-color-light-blue{
+  filter: invert(32%) sepia(57%) saturate(6903%) hue-rotate(230deg) brightness(89%) contrast(87%);
+}
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 48, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card .card-body {
