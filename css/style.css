@@ -3213,6 +3213,8 @@ h3 {
   padding-bottom: 75px;
   position: relative;
   margin-top: -295px;
+  /*background: #001D38;*/
+
 }
 
 /* line 29, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_portfolio.scss */
@@ -3269,7 +3271,8 @@ h3 {
   width: 100%;
   height: 100%;
   text-align: center;
-  background: rgba(97, 92, 253, 0.6);
+  /*background: rgba(97, 92, 253, 0.6);*/
+  background: rgba(61, 82, 213, 0.9);
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -3296,10 +3299,26 @@ h3 {
 }
 
 /* line 74, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_portfolio.scss */
+
+.portfolio_image_area .single_Portfolio .portfolio_hover h2 {
+  color: #FBFFF1;
+  font-size: 30px;
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-thickness : 2px;
+  text-underline-offset: 0.1em;
+}
+
 .portfolio_image_area .single_Portfolio .portfolio_hover h3 {
-  color: #fff;
+  color: #FBFFF1;
   font-size: 24px;
   font-weight: 700;
+}
+
+.portfolio_image_area .single_Portfolio .portfolio_hover p {
+  color: #FBFFF1;
+  font-size: 20px;
+  font-weight: 200;
 }
 
 /* line 80, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_portfolio.scss */
