@@ -4236,9 +4236,43 @@ h6 {
   padding-right: 50px;
 }
 
+.progress-table .head-category {
+  width: 100%;
+  padding-right: 50px;
+}
+
 /* line 375, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_elements.scss */
 .progress-table .table-head {
   display: flex;
+}
+
+.progress-table .table-head-sub {
+  display: flex;
+  border-top: 1px solid #edf3fd;
+}
+
+.progress-table .table-head-sub .serial,
+.progress-table .table-head-sub .country,
+.progress-table .table-head-sub .visit,
+.progress-table .table-head-sub .percentage {
+  color: #FBFFF1;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: #3D52D5;
+}
+
+.progress-table .table-head-sub .head-category
+{
+  /*color: #FBFFF1;*/
+  color: #415094;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  /*background-color: #3D52D5;*/
+  text-align: center;
 }
 
 /* line 377, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_elements.scss */
