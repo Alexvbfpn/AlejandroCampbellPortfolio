@@ -4205,8 +4205,15 @@ h6 {
 /* line 353, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_elements.scss */
 .progress-table-wrap {
   overflow-x: scroll;
+  border: 1px solid #E8E8E8;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
-
+.progress-table-wrap:hover {
+  border: 1px solid #615CFD;
+}
 /* line 357, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_elements.scss */
 .progress-table {
   background: #f9f9ff;
@@ -4249,6 +4256,7 @@ h6 {
 .progress-table .table-head-sub {
   display: flex;
   border-top: 1px solid #edf3fd;
+
 }
 
 .progress-table .table-head-sub .serial,
