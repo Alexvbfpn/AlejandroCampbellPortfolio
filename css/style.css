@@ -2888,7 +2888,7 @@ h3 {
 /* line 2, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_tesmonial.scss */
 .testimonial_area {
   padding: 130px 0;
-  background-image: url(../img/testmonial/banner.png);
+  background-image: url(../img/testmonial/gamesBanner.png);
   position: relative;
   z-index: 0;
   background-size: cover;
@@ -2905,6 +2905,7 @@ h3 {
   /* FF3.6-15 */
   background: -webkit-linear-gradient(left, rgba(0, 29, 56, 0) 0%, #001d38 100%);
   /* Chrome10-25,Safari5.1-6 */
+
   background: linear-gradient(to right, rgba(0, 29, 56, 0) 0%, #001d38 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00001d38', endColorstr='#001d38',GradientType=1 );
