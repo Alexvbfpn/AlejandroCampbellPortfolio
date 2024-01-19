@@ -1468,7 +1468,7 @@ h3 {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-image: url(../img/about/man.png);
+  background-image: url(../img/about/AlexAboutNew.png);
   width: 724px;
   height: 767px;
   content: '';
@@ -3213,6 +3213,8 @@ h3 {
   padding-bottom: 75px;
   position: relative;
   margin-top: -295px;
+  /*background: #001D38;*/
+
 }
 
 /* line 29, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_portfolio.scss */
@@ -3269,7 +3271,8 @@ h3 {
   width: 100%;
   height: 100%;
   text-align: center;
-  background: rgba(97, 92, 253, 0.6);
+  /*background: rgba(97, 92, 253, 0.6);*/
+  background: rgba(61, 82, 213, 0.9);
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -3296,10 +3299,26 @@ h3 {
 }
 
 /* line 74, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_portfolio.scss */
+
+.portfolio_image_area .single_Portfolio .portfolio_hover h2 {
+  color: #FBFFF1;
+  font-size: 30px;
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-thickness : 2px;
+  text-underline-offset: 0.1em;
+}
+
 .portfolio_image_area .single_Portfolio .portfolio_hover h3 {
-  color: #fff;
+  color: #FBFFF1;
   font-size: 24px;
   font-weight: 700;
+}
+
+.portfolio_image_area .single_Portfolio .portfolio_hover p {
+  color: #FBFFF1;
+  font-size: 20px;
+  font-weight: 200;
 }
 
 /* line 80, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_portfolio.scss */
@@ -4186,8 +4205,15 @@ h6 {
 /* line 353, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_elements.scss */
 .progress-table-wrap {
   overflow-x: scroll;
+  border: 1px solid #E8E8E8;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
-
+.progress-table-wrap:hover {
+  border: 1px solid #615CFD;
+}
 /* line 357, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_elements.scss */
 .progress-table {
   background: #f9f9ff;
@@ -4217,9 +4243,44 @@ h6 {
   padding-right: 50px;
 }
 
+.progress-table .head-category {
+  width: 100%;
+  padding-right: 50px;
+}
+
 /* line 375, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_elements.scss */
 .progress-table .table-head {
   display: flex;
+}
+
+.progress-table .table-head-sub {
+  display: flex;
+  border-top: 1px solid #edf3fd;
+
+}
+
+.progress-table .table-head-sub .serial,
+.progress-table .table-head-sub .country,
+.progress-table .table-head-sub .visit,
+.progress-table .table-head-sub .percentage {
+  color: #FBFFF1;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: #3D52D5;
+}
+
+.progress-table .table-head-sub .head-category
+{
+  /*color: #FBFFF1;*/
+  color: #415094;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  /*background-color: #3D52D5;*/
+  text-align: center;
 }
 
 /* line 377, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_elements.scss */
@@ -6005,7 +6066,7 @@ h6 {
 
 /* line 1017, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_blog.scss */
 .blog-pagination .page-item.active .page-link {
-  background-color: #fbf9ff;
+  background-color: #FBFFF1;
   border-color: #f0e9ff;
   color: #888888;
 }
@@ -6610,7 +6671,9 @@ h6 {
     bottom: -140px;
   }
 }
-
+.filter-color-light-blue{
+  filter: invert(32%) sepia(57%) saturate(6903%) hue-rotate(230deg) brightness(89%) contrast(87%);
+}
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 48, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card .card-body {
