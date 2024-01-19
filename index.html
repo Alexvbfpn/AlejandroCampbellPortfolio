@@ -447,7 +447,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-5 col-md-5">
+                <div class="col-xl-5 col-md-5" id="MoonlitDiv">
                     <div class="single_Portfolio">
                         <div class="portfolio_thumb">
                             <img src="img/portfolio/MoonlitMystery_CoverSquare.png" alt="">
@@ -469,12 +469,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-7 col-md-7">
+                <div class="col-xl-7 col-md-7" id="DoingTimeDiv">
                     <div class="single_Portfolio">
                         <div class="portfolio_thumb">
                             <img src="img/portfolio/Doing%20Time%20Cover.png" alt="">
                         </div>
-                        <a href="img/portfolio/3.png" class="popup popup-image"></a>
+                        <a href="img/portfolio/Doing%20Time%20Cover.png" class="popup popup-image"></a>
                         <div class="portfolio_hover">
                             <div class="title">
                                 <h2>Doing Time</h2>
@@ -556,7 +556,7 @@
                             <img src="img/about/color_grid.png" alt="">
                         </div>
                         <div class="my_Pic">
-                                <img src="img/about/about.jpg" alt="">
+                                <img src="img/about/About.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -745,6 +745,20 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         miDiv.addEventListener('click', function() {
             // Redireccionar a la URL deseada
             window.location.href = 'https://origamingcreations.itch.io/lullaby';
+        });
+        var doingTimeDiv = document.getElementById('DoingTimeDiv');
+
+        // Agregar un evento de clic al div
+        doingTimeDiv.addEventListener('click', function() {
+            // Redireccionar a la URL deseada
+            window.location.href = 'https://alexvbfpn.itch.io/doing-time';
+        });
+        var moonlitDiv = document.getElementById('MoonlitDiv');
+
+        // Agregar un evento de clic al div
+        moonlitDiv.addEventListener('click', function() {
+            // Redireccionar a la URL deseada
+            window.location.href = 'https://alexvbfpn.itch.io/moonlit-mystery';
         });
     </script>
     <!--contact js-->
